@@ -186,7 +186,7 @@
               </div>
             </li>
             <li class="nav-item">
-              <a data-bs-toggle="collapse" href="<?= site_url("/report") ?>">
+              <a href="<?= site_url("/report") ?>">
                 <i class="fas fa-table"></i>
                 <p>Report</p>
               </a>

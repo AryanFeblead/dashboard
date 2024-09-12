@@ -1,7 +1,7 @@
-<div class="container" style="margin-top:3rem; margin-left:22rem;">
+<div class="container" style="margin-top:3rem; margin-left:21rem; width:80%;">
     <h1 class="text-center">View Order</h1>
 <div id="view_order1">
-            <table id="order_tbl" class="table" style="width:90%;">
+            <table id="order_tbl" class="table">
               <thead>
                 <tr>
                   <th scope="col">Order ID</th>

@@ -1,4 +1,10 @@
 <div class="container" style="margin-top:3rem; margin-left:16rem;">
+<div class="alert alert-success" role="alert" id="success" style="width:68%; margin-left:15rem;">
+  This is a success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert" id="notsuccess" style="width:68%; margin-left:15rem;">
+  This is a danger alert—check it out!
+</div>
     <h1 class="text-center">Add Customer</h1>
     <div id="add_customer1" class="container" style="width: 70%;">
         <form id="customer_form" method="post">
@@ -27,10 +33,10 @@
               <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Customer Gender - </label>
                   <label for="exampleInputEmail1" class="form-label">Male</label>
-                  <input type="radio" name="customer_gender[]" class="customer_gender" value="male" id="customer_gender1"
+                  <input type="radio" name="customer_gender" class="customer_gender" value="male" id="customer_gender1"
                   aria-describedby="emailHelp">
                   <label for="exampleInputEmail1" class="form-label">Female</label>
-                  <input type="radio" id="customer_gender2" name="customer_gender[]" class="customer_gender"
+                  <input type="radio" id="customer_gender2" name="customer_gender" class="customer_gender"
                   value="female" id="customer_gender2" aria-describedby="emailHelp">
                   <div id="customer_genderval">
                       Please choose a customer gender.

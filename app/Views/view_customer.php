@@ -1,4 +1,4 @@
-<div class="container" style="margin-top:3rem; margin-left:16rem;">
+<div class="container" style="margin-top:3rem; margin-left:14rem;">
     <h1 class="text-center">View Customer</h1>
 <div id="view_customer1" class="container" style="width: 90%;">
             <table id="customer_tbl" class="table">
